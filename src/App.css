@@ -1,0 +1,121 @@
+.react-app .signup-header {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.react-app .signup-header span.step {
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    border-radius: 50%;
+    background: #666;
+    display: inline-flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin: 0 8px;
+}
+.react-app .signup-header span.step.active {
+    background: #f66;
+}
+
+.react-app .navbar-brand {
+    display: block;
+}
+.react-app .navbar-brand img {
+    max-width: 130px;
+}
+
+.react-app .signup-body {
+    display: flex;
+}
+
+.react-app .left-side {
+    background: #f0f0f0;
+    width: 40%;
+    padding: 2rem 0;
+}
+.react-app .right-side {
+    width: 60%;
+}
+.react-app .form-signup {
+    min-height: auto;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    .react-app .signup-body {
+        display: block;
+    }
+    .react-app .left-side {
+        width: 100%;
+    }
+    .react-app .right-side {
+        width: 100%;
+    }
+    .form-signup {
+        width: 100%;
+    }
+    
+  }
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .react-app .signup-body {
+        display: block;
+    }
+    .react-app .left-side {
+        width: 100%;
+    }
+    .react-app .right-side {
+        width: 100%;
+    }
+    .form-signup {
+        width: 100%;
+    }
+  
+    
+  }
+  
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .react-app .signup-body {
+        display: block;
+    }
+    .react-app .left-side {
+        width: 100%;
+    }
+    .react-app .right-side {
+        width: 100%;
+    }
+    .form-signup {
+        width: 100%;
+    }
+    span.title {
+        font-size: 14px;
+        display: block;
+    }
+   
+    
+  }
+  
+ 
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .react-app .signup-body {
+        display: block;
+    }
+    .react-app .left-side {
+        width: 100%;
+    }
+    .react-app .right-side {
+        width: 100%;
+    }
+    .form-signup {
+        width: 100%;
+    }
+    span.title {
+        font-size: 11px;
+        display: block;
+    }
+    
+  }

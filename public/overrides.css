@@ -1,0 +1,114 @@
+/** CHOSEN CHOICES **/
+
+
+.chosen-choices li.search-field input.default, .width-auto {
+    width: auto !important;
+}
+
+.chosen-container .chosen-drop {
+    border: 1px solid #e6e6e6;
+    border-top: none;
+}
+.chosen-container-single .chosen-single {
+    padding:  6px 12px;
+    height: 34px;
+    border: 1px solid #f0f0f0;
+    border-radius: 4px;
+    background-clip: padding-box;
+    color: #555;
+    background: none;
+    width:100%;
+    line-height: 1.42857;
+    font-weight: lighter;
+    font-size: 14px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+.chosen-container-single .chosen-single div b {
+  background: url(images/chosen-sprite.png) no-repeat 0px 6px;
+}
+
+.chosen-container-single .chosen-search input[type="text"] {
+  font-family: inherit;
+  border: 1px solid #e6e6e6;
+}
+
+.chosen-container-multi .chosen-choices {
+  padding: 2px 5px;
+  border: 1px solid #f0f0f0;
+  min-height: 34px;
+  border-radius: 4px;
+  color: #555;
+  line-height: 1.42857;
+  font-weight: lighter;
+  font-size: 14px;
+  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+  background: none;
+}
+.chosen-container-multi .chosen-choices li.search-field input[type="text"] {
+  font-family: inherit;
+}
+.chosen-container-multi .chosen-choices li.search-choice {
+  border: 1px solid #e6e6e6;
+}
+.chosen-container-active .chosen-single {
+  box-shadow: none;
+}
+.chosen-container-single .chosen-single {
+    box-shadow: none;
+}
+.chosen-container-active.chosen-with-drop .chosen-single {
+  border: 1px solid #e6e6e6;
+  background-image: none;
+}
+.chosen-container-active.chosen-with-drop .chosen-single div b {
+  background-position: -18px 6px;
+}
+.chosen-container-active .chosen-choices {
+  /*border: 1px solid #e6e6e6;*/
+  box-shadow: none;
+}
+
+/* DATE PICKER */
+.date-picker, .date-picker-wrapper {
+  font-family: "gotham";
+}
+.datepicker table tr td.active.disabled:hover[disabled] {
+  background-color: #1aac86;
+}
+.datepicker table tr td.active:hover,
+.datepicker table tr td.active:hover:hover,
+.datepicker table tr td.active.disabled:hover,
+.datepicker table tr td.active.disabled:hover:hover,
+.datepicker table tr td.active:active,
+.datepicker table tr td.active:hover:active,
+.datepicker table tr td.active.disabled:active,
+.datepicker table tr td.active.disabled:hover:active,
+.datepicker table tr td.active.active,
+.datepicker table tr td.active:hover.active,
+.datepicker table tr td.active.disabled.active,
+.datepicker table tr td.active.disabled:hover.active,
+.datepicker table tr td.active.disabled,
+.datepicker table tr td.active:hover.disabled,
+.datepicker table tr td.active.disabled.disabled,
+.datepicker table tr td.active.disabled:hover.disabled,
+.datepicker table tr td.active[disabled],
+.datepicker table tr td.active:hover[disabled],
+.datepicker table tr td.active.disabled[disabled],
+.datepicker table tr td.active.disabled:hover[disabled] {
+  background-color: #1aac86;
+}
+
+
+.ui-widget.ui-widget-content {
+    border: 1px solid rgb(240, 240, 240);
+    color: rgb(85, 85, 85);
+    font-family: "Gotham";
+    font-size: 14px;
+    font-weight: 200;
+}
+.ui-widget.ui-widget-content .ui-state-active {
+    background: #2ba276;
+    border: #2ba276;
+    font-size: 14px;
+    font-weight: 200;
+}
