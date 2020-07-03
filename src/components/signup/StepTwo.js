@@ -12,7 +12,7 @@ export default function StepTwo() {
     return (
         <div>
             <div className="list-group">
-                <div className="list-group-item">
+                <div className="list-group-item"> 
                     <input type="text" placeholder="Company" className="form-control no-border" required defaultValue="" />
                 </div>
                 <div className="list-group-item">

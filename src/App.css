@@ -16,7 +16,7 @@
     justify-content: center;
     margin: 0 8px;
 }
-.react-app .signup-header span.step.active {
+.react-app .signup-header span.step.active { 
     background: #f66;
 }
 
@@ -55,6 +55,11 @@
     }
     .form-signup {
         width: 100%;
+        
+    text-align: center;
+    }
+    span.title {
+        display: inline-block;
     }
     
   }
@@ -70,6 +75,7 @@
     }
     .form-signup {
         width: 100%;
+       
     }
   
     
@@ -93,6 +99,7 @@
         font-size: 14px;
         display: block;
     }
+    .form-signup div p{text-align: center;} 
    
     
   }
@@ -112,6 +119,7 @@
     }
     .form-signup {
         width: 100%;
+        padding: 20px;
     }
     span.title {
         font-size: 11px;

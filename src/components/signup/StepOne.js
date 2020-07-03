@@ -12,7 +12,7 @@ export default function StepOne() {
     return (
         <div>
             <div className="list-group">
-                <div className="list-group-item">
+                <div className="list-group-item"> 
                     <input type="email" placeholder="Email" className="form-control no-border" required autoFocus defaultValue="" />
                 </div>
                 <div className="list-group-item">
