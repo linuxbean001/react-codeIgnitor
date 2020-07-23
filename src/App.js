@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Signup from "./layout/Signup";
+//import Signphp from './layout/signphp';
 import { StateProvider } from "./util/context";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
         <div className="react-app">
             <StateProvider>
                 <Signup />
+                {/* <Signphp /> */}
             </StateProvider>
         </div>
     );

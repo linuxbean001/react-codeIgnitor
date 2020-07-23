@@ -3,8 +3,9 @@ import { Link } from "react-router-dom";
 import { useStateValue } from "../../util/context";
 import { SET_STEP } from "../../util/constants";
 
-export default function StepThree() {
+export default function StepThree({ setForm, formData }) {
     const [state, dispatch] = useStateValue();
+    console.log('Props33:',formData);
     useEffect(() => {
         dispatch({ type: SET_STEP, step: 3 }); 
     }, []);
